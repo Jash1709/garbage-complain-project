@@ -60,11 +60,13 @@
             // Signed in 
             const user = userCredential.user;
             alert('login sucessfully')
+            window.location= "index.html";
             // ...
         })
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
+            alert(errorMessage)
         });
 
         });
