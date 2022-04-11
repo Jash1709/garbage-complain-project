@@ -58,6 +58,7 @@ createUserWithEmailAndPassword(auth, email, password)
     // Signed in 
     const user = userCredential.user;
     alert('user created sucessfully')
+    window.location= "login.html";
     // ...
   })
   .catch((error) => {
