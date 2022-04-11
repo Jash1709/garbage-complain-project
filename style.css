@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(173, 206, 226, 0.39);
+}
+.flex-box{
+        margin: 0 auto;
+        max-width: 60%;
+        height: auto;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        
+       
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: 600px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0.2px solid rgba(0, 0, 0, 0.144);
+    padding: 20px;
+
+} 
+.tags{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.774);
+    font-family: 'Google Sans', 'Roboto', Helvetica, Arial, sans-serif;
+}
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(126, 118, 118, 0.212);
+    max-width: 300px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+select{
+    color: rgba(0, 0, 0, 0.897);
+    max-width: 300px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.submit-btn{
+    display: flex;
+    margin-top: 20px;
+    justify-content:flex-start;
+}
+.submit-btn button{
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 30px;
+    background-color: rgb(117, 180, 209);
+    border: none;
+    border-radius: 4px;
+    font-family: 'Google Sans', 'Roboto', Helvetica, Arial, sans-serif;
+}
