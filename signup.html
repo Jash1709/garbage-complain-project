@@ -21,7 +21,7 @@
         </div>
         <div class="login-btn">
              <button type="submit" id="btnSignup" name="password" class="btn">Register  </button> 
-             <a href="login.html">already have Account ? sign in</a>
+             <a href="index.html">already have Account ? sign in</a>
         </div>
        
     </div>
@@ -58,7 +58,7 @@ createUserWithEmailAndPassword(auth, email, password)
     // Signed in 
     const user = userCredential.user;
     alert('user created sucessfully')
-    window.location= "login.html";
+    window.location= "index.html";
     // ...
   })
   .catch((error) => {
